@@ -3,8 +3,7 @@ body {
     grid-template-columns: repeat (10, 10%);
     grid-gap : 10px;
     grid-auto-rows: 135px;
-    background-color: #D4C9C9;
-    
+    background: linear-gradient(-70deg, #E2CDCD 40%, rgba(0, 0, 0, 0) 30%), url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-029.jpg');
 }
 
 img {
@@ -25,24 +24,27 @@ img {
 }
 
 .infos {grid-row: 3 / 4;
-        grid-column: 4 / 5; 
-        font-family: 'Nanum Gothic', sans-serif   
+    grid-column: 4; 
+    font-family: 'Nanum Gothic', sans-serif;   
+    border-left-style: inset;
+        
 }
 
 .xp {grid-row: 3 / 4;
      grid-column: 3 / 5;
-     font-family: 'Nanum Gothic', sans-serif
+     font-family: 'Nanum Gothic', sans-serif;
     }
 
 .education {grid-row: 4 / 5;
             grid-column: 3 / 5;
-            font-family: 'Nanum Gothic', sans-serif
-
+            font-family: 'Nanum Gothic', sans-serif;
+            
 }
 
 .me {grid-row: 5 / 6;
      grid-column: 3 / 5;
-     font-family: 'Nanum Gothic', sans-serif
+     font-family: 'Nanum Gothic', sans-serif;
+     
 }
 
 footer {grid-row: 6 / 7;
